@@ -1,0 +1,7 @@
+plugins:
+  site_info_enabled:
+    default: false
+    client: true
+  site_info_source_url:
+    default: ''
+    client: true

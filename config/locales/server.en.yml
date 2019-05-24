@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    site_info_enabled: 'Show a modal on the header bar with global site information'
+    site_info_source_url: 'URL for the post to show in the modal. Only users able to see the post will be able to see it in the modal'
