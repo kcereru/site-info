@@ -10,7 +10,7 @@ function initializePlugin(api)
     api.decorateWidget('header-icons:before', helper => {
 
       const openModal = function () {
-                const controller = showModal('site-info')
+                const controller = showModal('site-info', { title: 'site_info.title' })
       };
 
       return helper.h('li', [
