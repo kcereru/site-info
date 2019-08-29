@@ -16,7 +16,7 @@ function initializePlugin(api)
       return helper.h('li', [
           helper.h('a#home-button.icon', {
               onclick: openModal,
-              title: 'site_info.title'
+              title: 'view ongoing game events'
           }, iconNode('info')),
       ]);
     });
